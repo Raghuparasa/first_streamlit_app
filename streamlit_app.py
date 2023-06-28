@@ -61,7 +61,6 @@ if streamlit.button('Get fruit load list'):
 #streamlit.header("THe fruit load list contains:")
 
 
-import requests
 fruit_choice = streamlit.text_input('What fruit would you like information about?','Jackfruit')
 streamlit.write('Thanks for adding  ', fruit_choice)
 
